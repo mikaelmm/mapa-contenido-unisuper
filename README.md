@@ -8,7 +8,7 @@ Outline
 * [Producto](#producto)
 * [Tienda](#tienda)
 * [Marca](#marca)
-* [Categoría](#categoria)
+* [Categoría / Subcategoría](#categoria)
 
 
 
@@ -26,6 +26,8 @@ Outline
 
 <a name="tienda"> </a>
 
+## Tienda
+
 ![img](./imagenes/tienda.svg)
 
 [volver al outline](#outline)
@@ -34,6 +36,8 @@ Outline
 
 <a name="marca"> </a>
 
+## Marca
+
 ![img](./imagenes/marca.svg)
 
 [volver al outline](#outline)
@@ -41,6 +45,8 @@ Outline
 ***
 
 <a name="categoria"> </a>
+
+## Categoría / Subcategoría
 
 ![img](./imagenes/categoría.svg)
 
