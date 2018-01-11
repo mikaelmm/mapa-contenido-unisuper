@@ -1,0 +1,55 @@
+graph LR
+
+x1("Dimensión") ---x0((" "))
+x0-->x2("Análisis") 
+x2 --> x3("Capítulo")
+x3 --> x4("Dashboard")
+style x1 fill:#bd57fd
+style x2 fill:#0698ee
+style x3 fill:#fd928f
+style x4 fill:#ffa53c
+
+
+A["Categoría / Subcategoría"] ---X((" "))
+X -->B("Venta")
+X -->C("Share")
+X-->D("Promociones")
+X-->E("Fill Rate")
+
+
+B-->B1("Data Scan Proveedor")
+B-->B2("Análisis de GAPs")
+C-->C1("Share Unisuper")
+D-->D1("Análisis de Promociones")
+E-->E1("Fill Rate")
+
+
+B1-->B1a("Categoría")
+B1-->B1b("Oportunidad de Crecimiento")
+C1-->C1a("Categoría")
+D1-->D1a("Categoría")
+E1-->E1a("Categoría")
+
+
+
+style X stroke:#000, fill:#FFF
+
+style A fill:#bd57fd
+
+style B fill:#0698ee
+style C fill:#0698ee
+style D fill:#0698ee
+style E fill:#0698ee
+
+style B1 fill:#fd928f
+style B2 fill:#fd928f
+style C1 fill:#fd928f
+style D1 fill:#fd928f
+style E1 fill:#fd928f
+
+style B1a fill:#ffa53c
+style B1b fill:#ffa53c
+style C1a fill:#ffa53c
+style D1a fill:#ffa53c
+style E1a fill:#ffa53c
+

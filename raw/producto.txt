@@ -1,0 +1,67 @@
+graph LR
+
+x1("Dimensión") ---x0((" "))
+x0-->x2("Análisis") 
+x2 --> x3("Capítulo")
+x3 --> x4("Dashboard")
+style x1 fill:#bd57fd
+style x2 fill:#0698ee
+style x3 fill:#fd928f
+style x4 fill:#ffa53c
+
+
+A[Producto] ---X((" "))
+X -->B("Venta")
+X -->C("Share")
+X-->D("Promociones")
+X-->E("Inventarios")
+X-->F("Fill Rate")
+X-->G("Margen Indexado")
+
+B-->B1("Data Scan Proveedor")
+C-->C1("Share Unisuper")
+D-->D1("Análisis de Promociones")
+D-->D2("Desempeño de Promociones")
+E-->E1("Cobertura SKU")
+E-->E2("Existencias")
+F-->F1("Producto")
+G-->G1("SKU")
+
+B1-->B1a("Producto")
+C1-->C1a("Producto")
+D1-->D1a("Producto")
+D2-->D2b("Análisis de Oferta")
+E1-->E1a("Cobertura SKU")
+E2-->E2a("Existencias")
+F1-->F1a("Producto")
+G1-->G1a("SKU")
+
+
+style X stroke:#000, fill:#FFF
+
+style A fill:#bd57fd
+
+style B fill:#0698ee
+style C fill:#0698ee
+style D fill:#0698ee
+style E fill:#0698ee
+style F fill:#0698ee
+style G fill:#0698ee
+
+style B1 fill:#fd928f
+style C1 fill:#fd928f
+style D1 fill:#fd928f
+style D2 fill:#fd928f
+style E1 fill:#fd928f
+style E2 fill:#fd928f
+style F1 fill:#fd928f
+style G1 fill:#fd928f
+
+style B1a fill:#ffa53c
+style C1a fill:#ffa53c
+style D2b fill:#ffa53c
+style D1a fill:#ffa53c
+style E1a fill:#ffa53c
+style E2a fill:#ffa53c
+style F1a fill:#ffa53c
+style G1a fill:#ffa53c

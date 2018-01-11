@@ -1,0 +1,53 @@
+graph LR
+
+x1("Dimensión") ---x0((" "))
+x0-->x2("Análisis") 
+x2 --> x3("Capítulo")
+x3 --> x4("Dashboard")
+style x1 fill:#bd57fd
+style x2 fill:#0698ee
+style x3 fill:#fd928f
+style x4 fill:#ffa53c
+
+
+A["Tienda"] ---X((" "))
+X -->B("Venta")
+X -->C("Share")
+X-->D("Promociones")
+X-->E("Inventarios")
+
+B-->B1("Data Scan Proveedor")
+C-->C1("Share Unisuper")
+C-->C2("Análisis de GAPs")
+D-->D1("Análisis de Promociones")
+E-->E1("Inventarios")
+
+B1-->B1a("Tienda")
+C1-->C1a("Tienda")
+C2-->C2a("Oportunidad por Share")
+D1-->D1a("Tienda")
+E1-->E1a("Cobertura Tienda / CD")
+
+
+style X stroke:#000, fill:#FFF
+
+style A fill:#bd57fd
+
+style B fill:#0698ee
+style C fill:#0698ee
+style D fill:#0698ee
+style E fill:#0698ee
+
+
+style B1 fill:#fd928f
+style C1 fill:#fd928f
+style C2 fill:#fd928f
+style D1 fill:#fd928f
+style E1 fill:#fd928f
+
+style B1a fill:#ffa53c
+style C1a fill:#ffa53c
+style C2a fill:#ffa53c
+style D1a fill:#ffa53c
+style E1a fill:#ffa53c
+
